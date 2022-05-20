@@ -136,16 +136,17 @@
 .ex-11-icon {
     font-size: 60px;
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
     transform: rotate(0deg);
-    animation: almostrotate 2s ease-in-out infinite;
+    animation: almostrotate 2s ease-out infinite;
 }
 
 .well .ex-11-icon:hover {
     transform: rotate(270deg);
+    transition: 3s;
 }
 
-/* Es 12 */
+/* Es 12-13 */
 
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -175,4 +176,44 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+.ex-12-top-white {
+    animation: goright 3s infinite alternate-reverse;
+}
+
+@keyframes goright {
+    from {
+        left: 10%;
+    }
+    to{
+        left: 60%;
+    }
+}
+
+.ex-12-bottom-white {
+    animation: goleft 3s infinite alternate-reverse;
+}
+
+@keyframes goleft {
+    from {
+        right: 10%;
+    }
+    to{
+        right: 60%;
+    }
+}
+
+.ex-13-top-white {
+    animation: around 3s  alternate-reverse 3s;
+}
+
+@keyframes around {
+    from {
+        left: 10%;
+        top: 
+    }
+    to{
+        left: 60%;
+    }
 }
