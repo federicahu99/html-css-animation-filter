@@ -85,7 +85,7 @@
     filter: grayscale(1);
 }
 
-.ex-7-img {
+.ex-7-img, .ex-8-img, .ex-9-img {
     transition: 2s;
 }
 
@@ -111,12 +111,28 @@
     width: 450px;
 }
 
+.well .ex-9-img:active {
+    width: 350px;
+}
+
 /* Es 10 */
 .ex-10-icon {
     font-size: 60px;
+    cursor: pointer;
+    transition: 3s;
+    animation: rotate 3s linear infinite;
 }
 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
+/* Es 10 */
 .ex-11-icon {
     font-size: 60px;
 }
