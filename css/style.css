@@ -33,6 +33,7 @@
     height: 100px;
     background: red;
     transition: 1s;
+    cursor: pointer;
 }
 
 .well .ex-3-square:hover {
@@ -46,6 +47,7 @@
     height: 100px;
     background: red;
     transition: 2s;
+    cursor: pointer;
 }
 
 .well .ex-4-square:hover {
@@ -53,12 +55,28 @@
 }
 
 /* Es 5 */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: 1s;
+    cursor: pointer;
 }
+
+.well .ex-5-square:hover {
+    width: 70px;
+    height: 70px;
+}
+
+.well .ex-5-square:active {
+    width: 40px;
+    height: 40px;
+}
+
+/* Es 6 */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
