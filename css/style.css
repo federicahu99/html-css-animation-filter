@@ -75,12 +75,30 @@
     height: 40px;
 }
 
-/* Es 6 */
-
+/* Es 6, 7, 8*/
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    cursor: pointer;
 }
 
+.well .ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: 2s;
+}
+
+.well .ex-7-img:hover{
+    filter: sepia(0.8) brightness(0.7);
+}
+
+.well .ex-8-img:hover {
+    filter: grayscale(0.6) opacity(0.8);
+    border-radius: 0 40px;
+}
+
+/* Es 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
