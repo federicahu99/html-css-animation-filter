@@ -40,11 +40,19 @@
 }
 
 /* Es 4 */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+
+.well .ex-4-square:hover {
+    background-color: transparent;
+}
+
+/* Es 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
