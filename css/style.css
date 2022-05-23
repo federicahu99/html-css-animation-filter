@@ -23,7 +23,7 @@
 }
 
 .well .ex-2-square:active {
-    width: 700px;
+    width: 500px;
 }
 
 /* Es 3 */ 
@@ -243,8 +243,10 @@
         top: -10px;
     }
 
+}
+
 .ex-13-bottom-white {
-    animation: aroundbottom 5s linear infinite ;
+    animation: aroundbottom 5s linear infinite;
 }
 
 @keyframes aroundbottom {
@@ -253,11 +255,11 @@
         right: 20%;
     }
     30% {
-        right: calc(100% - 30px);
+        right: calc(93% - 30px);
         bottom: -10px;
     }
     45% {
-        right: calc(100% - 30px);
+        right: calc(93% - 30px);
         bottom: 100%;
     }
     75% {
